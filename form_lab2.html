@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Complaint Form</title>
+</head>
+<body>
+    <h2>Student Complaint Form</h2>
+    <table width="100%" border="0">
+        <tr>
+        <td width="50%" valign="top">
+            <form action="/submit_complaint" method="post">
+                <label for="studentName">Student Name:</label><br>
+                <input type="text" id="studentName" name="studentName" required><br>
+        
+                <label for="studentID">Student ID:</label><br>
+                <input type="text" id="studentID" name="studentID" required><br>
+        
+                <label for="complaint">Complaint:</label><br>
+                <textarea id="complaint" name="complaint" rows="4" cols="50" required></textarea><br>
+        
+                <input type="submit" value="Submit Complaint">
+            </form>
+        </td>
+        <td width="50%" valign="top">
+            <h3 align="center">Student Corner</h3>
+            <ul">
+                <li>Achievements</li>
+                <li>News</li>
+                <li>Hackathon</li>
+            </ul>
+        </td>
+        </tr>
+    </table>
+   
+</body>
+</html>

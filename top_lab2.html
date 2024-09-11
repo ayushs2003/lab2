@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top Frame</title>
+</head>
+<body>
+    <!-- Table for Department Name and Navigation Links -->
+    <table width="100%">
+        <tr>
+            <td><h1>Department of CSIT</h1></td>
+            <td style="font-size: 25px;">
+                <nav>
+                    <a href="#">NAAC</a> |
+                    <a href="#">NIRF</a> |
+                    <a href="#">Department</a> |
+                    <a href="#">Academics</a> |
+                    <label for="courses">Courses:</label>
+                    <select id="courses" name="courses" onchange="location = this.value;">
+                        <option value="#">Select Course</option>
+                        <option value="/bsc">B.Sc in CSIT</option>
+                        <option value="/msc">M.Sc in CSIT</option>
+                        <option value="/phd">PhD in CSIT</option>
+                    </select>
+                    <a href="#">Placement Record</a> |
+                    <a href="#">Contact Us</a> |
+                </nav>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Table for News (left) and Department Images (right) -->
+    <table width="100%" border="0">
+        <tr>
+            <!-- Left Section: News -->
+            <td width="50%" valign="top">
+                <h2>News</h2>
+                <ul>
+                    <li>Departmental Seminar on AI</li>
+                    <li>Upcoming NIRF Ranking Ceremony</li>
+                    <li>New Courses for Data Science</li>
+                </ul>
+            </td>
+
+            <!-- Right Section: Department Images -->
+            <td width="75%" valign="top" align="right" style="font-size: 15px;">
+                <h2>Department Images</h2>
+                <img src="csit.jpg" alt="Department Image 1" width="200px"><br><br>
+                <img src="department_image2.jpg" alt="Department Image 2" width="200">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

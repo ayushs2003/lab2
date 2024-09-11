@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h2>Feedback Form</h2>
+    <form action="/submit_feedback" method="post">
+        <label for="feedbackName">Your Name:</label><br>
+        <input type="text" id="feedbackName" name="feedbackName" required><br>
+        <input type="radio" name="feed" value="dean">Dean<br>
+        <input type="radio" name="feed" value="professor">Professor<br>
+        <input type="radio" name="feed" value="student">Student<br>
+        <input type="radio" name="feed" value="parent">Parent<br>
+
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit Feedback">
+        <input type="reset" value="Reset Feedback">
+    </form>
+</body>
+</html>
